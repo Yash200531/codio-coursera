@@ -1,0 +1,888 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 26,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.user": 1,
+			"com.tldraw.asset.image": 6,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 4,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 4,
+			"com.tldraw.shape.geo": 11,
+			"com.tldraw.shape.note": 12,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 8,
+			"com.tldraw.shape.highlight": 3,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"x": 0,
+			"y": 0,
+			"lastActivityTimestamp": 0,
+			"meta": {},
+			"id": "pointer:pointer",
+			"typeName": "pointer"
+		},
+		{
+			"meta": {},
+			"id": "binding:gud04dAdJ4_2a_JYJqr7Y",
+			"type": "arrow",
+			"fromId": "shape:riPEAGawLrZ1y11k9N6wp",
+			"toId": "shape:_B-bMhE6T6PovoOL-mkG5",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.7880715701970886,
+					"y": 0.8920545133301191
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 687.0702304553291,
+			"y": 742.6921268467851,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EK0lPtbqpTgABg38BmAEg",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": -33.68674698602751,
+				"start": {
+					"x": 127.63080686176704,
+					"y": 124.37167899846361
+				},
+				"end": {
+					"x": -94.72313825715105,
+					"y": 298.3019718962498
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a9DMaz1G",
+			"typeName": "shape"
+		},
+		{
+			"x": -334.3174557912657,
+			"y": -116.29290014769265,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"type": "frame",
+			"props": {
+				"w": 1885.0666464739047,
+				"h": 1608.186154771483,
+				"name": "",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "a8qJhmcV",
+			"typeName": "shape"
+		},
+		{
+			"x": 195.0220844334412,
+			"y": 1079.1887765570605,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_B-bMhE6T6PovoOL-mkG5",
+			"type": "geo",
+			"props": {
+				"w": 696,
+				"h": 193.35947933568224,
+				"geo": "cloud",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "As with insertion, this method is not very efficient, especially for large arrays or multiple deletions. It involves shifting the elements and reallocating the memory which takes a lot of time and resources."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a89s3kJV",
+			"typeName": "shape"
+		},
+		{
+			"x": -806.2483355758081,
+			"y": -520.0951428943589,
+			"z": 0.7036841083428724,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 170.8886664934319,
+			"y": 428.3979162496536,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-OhHtlm54RLBJ2jdhO79B",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 653.4000244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "operation of removing an element from the array. Like insertion, deletion is also tricky with arrays because arrays in Java are of a fixed size."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a3CBHmSV",
+			"typeName": "shape"
+		},
+		{
+			"x": 701.8655225050618,
+			"y": 1248.4963744627041,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:riPEAGawLrZ1y11k9N6wp",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 130.01398672111404,
+				"start": {
+					"x": -297.55625988830417,
+					"y": -113.02258703904317
+				},
+				"end": {
+					"x": 436.00416956228133,
+					"y": 185.451668686414
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aAGV70vV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:qPrTv6i_yzmSHuXHA3txf",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:qPrTv6i_yzmSHuXHA3txf"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 1172.97858332533,
+			"y": 1452.4516670319545,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:fsXW1DYY0Wu10JtT6dazL",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 702.4181795582764,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "for tasks involving frequent insertions and deletions."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "aAoALEIV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:5HDjB8KQrq0Fl3phCzADk",
+			"type": "arrow",
+			"fromId": "shape:EK0lPtbqpTgABg38BmAEg",
+			"toId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4915818492268208,
+					"y": 0.7196225358967686
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:0ZM3YTng6riRtN1iOV35M",
+			"type": "arrow",
+			"fromId": "shape:JblmA-N9O-9eQLuDi4mtg",
+			"toId": "shape:-FIvenH63KG8lZ6WTGnb4",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:uE_KqW2RaKNrT6R2v2jG4",
+			"type": "arrow",
+			"fromId": "shape:riPEAGawLrZ1y11k9N6wp",
+			"toId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.7533195368842329,
+					"y": 0.8385573265971876
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:eF4aseO6ReP9l-UerzqYn",
+			"type": "arrow",
+			"fromId": "shape:pO4XA69xGNhJfEypRI0_t",
+			"toId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.8403903611219745,
+					"y": 0.8316467404547407
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 632.9579634274712,
+			"y": 621.8259378672343,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2lOCXbLkDv86EbSK0kLW1",
+			"type": "geo",
+			"props": {
+				"w": 672,
+				"h": 206.00132915274082,
+				"geo": "cloud",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "light-red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "To delete an element from an array, we don’t have a direct method. Instead, we’ll typically create a new array with a size smaller than the original array by one, and then copy all elements excluding the one to be deleted from the old array to the new one."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a52CmdgV",
+			"typeName": "shape"
+		},
+		{
+			"x": 578.8886588640373,
+			"y": 221.99790709438014,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JblmA-N9O-9eQLuDi4mtg",
+			"type": "arrow",
+			"props": {
+				"kind": "elbow",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -103.99999237060547,
+					"y": 204.00001525878906
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5232011906750131,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a2Lv1lLV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:arrowKind": "arc",
+				"tldraw:color": "black"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 719.2000122070312,
+				"h": 798.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"cameraState": "idle",
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 818.6995958140337,
+			"y": 865.4749243338596,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Mom6nQOxt8s9f1RZtteTW",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 76.82155686582671,
+				"start": {
+					"x": 21.51834052380525,
+					"y": -22.594282175782155
+				},
+				"end": {
+					"x": 282.9662107224217,
+					"y": 63.479203048371346
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a7knFzvl",
+			"typeName": "shape"
+		},
+		{
+			"x": 1268.1358327085982,
+			"y": 1177.4777447380166,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:qPrTv6i_yzmSHuXHA3txf",
+			"type": "geo",
+			"props": {
+				"w": 430,
+				"h": 152,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "This issue is one of the reasons why we often use more complex data structures like "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "linked lists or dynamic arrays (ArrayList in Java)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a9JtHhjV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:qFWOvZSwQ3lR7mrOqAqOO",
+			"type": "arrow",
+			"fromId": "shape:EK0lPtbqpTgABg38BmAEg",
+			"toId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.6095373313498749,
+					"y": 0.611469451515501
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1109.1971928854055,
+			"y": 857.9434969419322,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4xReBKn4xcQNuUePl3gf5",
+			"type": "geo",
+			"props": {
+				"w": 610.0450031014536,
+				"h": 123.730499054858,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "visit -> ArrayDeletion"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a6wKJEUG",
+			"typeName": "shape"
+		},
+		{
+			"name": "",
+			"color": "#02B1CC",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:Z7PzIUP1udrQrLAd_SqaQ",
+			"typeName": "user"
+		},
+		{
+			"x": 500.4885772295159,
+			"y": 530.7979406637161,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QRMdhmHqqLk7rPWaz3SsF",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 65.85777340607144,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 121.60002136230469,
+					"y": 183.19998168945312
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a4UWzhU4",
+			"typeName": "shape"
+		},
+		{
+			"x": 503.6886619157952,
+			"y": 154.79790251674342,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-FIvenH63KG8lZ6WTGnb4",
+			"type": "geo",
+			"props": {
+				"w": 410.4000244140625,
+				"h": 68.80001068115234,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Deletion "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:CWigr6STZQOXLHS_xrgMs",
+			"type": "arrow",
+			"fromId": "shape:pO4XA69xGNhJfEypRI0_t",
+			"toId": "shape:Bi7ybu9ZFvTVs9tLxzJ78",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.8403903611219745,
+					"y": 0.88845694138834
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1136.8784874296025,
+			"y": 1221.1498735124542,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:pO4XA69xGNhJfEypRI0_t",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 2,
+					"y": 0
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB1uaW4V",
+			"typeName": "shape"
+		}
+	]
+}

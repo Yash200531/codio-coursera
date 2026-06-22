@@ -1,0 +1,616 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 26,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.user": 1,
+			"com.tldraw.asset.image": 6,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 4,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 4,
+			"com.tldraw.shape.geo": 11,
+			"com.tldraw.shape.note": 12,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 8,
+			"com.tldraw.shape.highlight": 3,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"x": 0,
+			"y": 0,
+			"lastActivityTimestamp": 0,
+			"meta": {},
+			"id": "pointer:pointer",
+			"typeName": "pointer"
+		},
+		{
+			"x": 161.76335669779618,
+			"y": 205.5230589369989,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:lkRdgtiBQoJX72XQ2IEw9",
+			"type": "geo",
+			"props": {
+				"w": 402.40000915527344,
+				"h": 80.00000762939453,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "green",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Merging Two Arrays"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:8gDXJPJ7YOctG1xgOLv_R",
+			"type": "arrow",
+			"fromId": "shape:ts7LEi-7bAjZAsdhX_ra2",
+			"toId": "shape:lkRdgtiBQoJX72XQ2IEw9",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -16.96335364603837,
+			"y": -131.9230604628778,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"type": "frame",
+			"props": {
+				"w": 1441.208758297804,
+				"h": 1922.514183938927,
+				"name": "",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "aAhboS5V",
+			"typeName": "shape"
+		},
+		{
+			"x": 346.563359749554,
+			"y": 845.5230665663935,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4cDT8ICRpfuBvMJrEWRWU",
+			"type": "geo",
+			"props": {
+				"w": 865,
+				"h": 151.42215413126178,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "green",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "The simplest way to merge two arrays in Java is to first create a new array of the correct size (which should be the sum of the lengths of the two input arrays), then copy over the elements from both arrays."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a5M9L1mV",
+			"typeName": "shape"
+		},
+		{
+			"x": 151.6747358811439,
+			"y": 594.9511472500975,
+			"z": 0.2954464468904302,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 234.563359749554,
+			"y": 697.5230970839716,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:r07ej28JKlec2eMBDdtY2",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "green",
+				"labelColor": "black",
+				"bend": 81.20185139892806,
+				"start": {
+					"x": 95.872125790199,
+					"y": -89.64390459360436
+				},
+				"end": {
+					"x": 106.39999389648438,
+					"y": 184
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a4gMmtIV",
+			"typeName": "shape"
+		},
+		{
+			"x": 22.966123353824322,
+			"y": 472.82898685626446,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FCnUODJIPbtNgA0vxfUyv",
+			"type": "geo",
+			"props": {
+				"w": 590,
+				"h": 182,
+				"geo": "cloud",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "green",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Merging in the context of arrays involves combining two arrays into a single array. Unlike insertion and deletion, merging does not alter the original arrays but creates a new one that holds all elements from both arrays"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a3eDGxOV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:zymbHWUN0W1x4jXjy_VYU"
+			],
+			"hoveredShapeId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 464.1575024734299,
+			"y": 1021.7150313567474,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Vbn89FHIj9UcT8v8gdzQD",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 76.82155686582671,
+				"start": {
+					"x": 21.51834052380525,
+					"y": -22.594282175782155
+				},
+				"end": {
+					"x": 227.7703817373615,
+					"y": 172.19828527533127
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a7hq2ezG",
+			"typeName": "shape"
+		},
+		{
+			"x": 970.0146909684304,
+			"y": 1264.4557221309954,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:kRur_qfMlsLqfwpITqKkY",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 5.435966872282847,
+					"y": 339.5380440401859
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a8iX1EDV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:G0pOEAvM3TQ_qtAIfG2Am",
+			"type": "arrow",
+			"fromId": "shape:r07ej28JKlec2eMBDdtY2",
+			"toId": "shape:FCnUODJIPbtNgA0vxfUyv",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5207518831467978,
+					"y": 0.7414941565213281
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 699.4592067550669,
+			"y": 1141.3012745852416,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:o5T6zbpP8gJbVS0Oee6Iw",
+			"type": "geo",
+			"props": {
+				"w": 610.0450031014536,
+				"h": 123.730499054858,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "visit -> ArrayMerge"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a6kmdwoV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "black"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 494.3999938964844,
+				"h": 798.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"cameraState": "idle",
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 607.0602355982896,
+			"y": 1620.7197788214826,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:NqpTjcFYh3Z73yBVxYF16",
+			"type": "geo",
+			"props": {
+				"w": 744,
+				"h": 212,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "However, this approach does not take into account any sorting or ordering of elements in the input arrays. If your input arrays are sorted and you want the merged array to be sorted as well, you’ll need to implement a more complex merging algorithm, such as the one used in merge sort, or sort the merged array afterward."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a9EB1t5V",
+			"typeName": "shape"
+		},
+		{
+			"x": 296.9633536460384,
+			"y": 285.5230665663934,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ts7LEi-7bAjZAsdhX_ra2",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -144.8000030517578,
+					"y": 180.79998779296875
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:zymbHWUN0W1x4jXjy_VYU",
+			"index": "a2qMQJCV",
+			"typeName": "shape"
+		},
+		{
+			"name": "",
+			"color": "#02B1CC",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:Z7PzIUP1udrQrLAd_SqaQ",
+			"typeName": "user"
+		}
+	]
+}
