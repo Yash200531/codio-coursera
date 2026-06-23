@@ -1,0 +1,781 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 26,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.user": 1,
+			"com.tldraw.asset.image": 6,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 4,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 4,
+			"com.tldraw.shape.geo": 11,
+			"com.tldraw.shape.note": 12,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 8,
+			"com.tldraw.shape.highlight": 3,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"x": 591.5104462910888,
+			"y": 230.3157051719927,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:iKkkEsIxhttbgh98Uud8f",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -145.59998321533206,
+					"y": 180.80001831054688
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a2fCldfV",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"lastActivityTimestamp": 0,
+			"meta": {},
+			"id": "pointer:pointer",
+			"typeName": "pointer"
+		},
+		{
+			"x": 515.4890268890587,
+			"y": 828.8377583115819,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:t2ZABYXfMd8i5QupsBR2Q",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 22.07878089032236,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -119.61592372062275,
+					"y": 115.22635837968323
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a9zR48zd",
+			"typeName": "shape"
+		},
+		{
+			"x": 173.10217677532737,
+			"y": 965.3755188956973,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_AFIQ_tEQ6aYdfgBvgho0",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 692.5768110888247,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.0365141902534332,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Time Complexity: "
+								},
+								{
+									"type": "text",
+									"text": "The total count of operations an algorithm will perform in its lifetime."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "As the size of input increases, runnning time of algo grows."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "We expreess time complexity as a function of input size ("
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "n"
+								},
+								{
+									"type": "text",
+									"text": ") often using "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "Big O notation"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "aAI4WEiV",
+			"typeName": "shape"
+		},
+		{
+			"x": 399.7824341569727,
+			"y": 1156.5808920436787,
+			"z": 0.2264558400468253,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:38LKeEGsE7jW2z3EorBFV"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 1099.3025201964572,
+			"y": 928.7719858560029,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:o44IbTC_ru9PujIAPYiYm",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 554.5829903978054,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Space Complexity:"
+								},
+								{
+									"type": "text",
+									"text": " This is the amount of memory space the algo needs to run to completion. Just like time complexity, space complexity is also expressed as a function of the input size ("
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "italic"
+										}
+									],
+									"text": "n"
+								},
+								{
+									"type": "text",
+									"text": "), using "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "Big O notation"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "aCnJSzUd",
+			"typeName": "shape"
+		},
+		{
+			"x": -290.26880386472163,
+			"y": -36.715729586055204,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:38LKeEGsE7jW2z3EorBFV",
+			"type": "frame",
+			"props": {
+				"w": 1780.47957947218,
+				"h": 1345.9578620163736,
+				"name": "",
+				"color": "black"
+			},
+			"parentId": "page:page",
+			"index": "aDIT0KnV",
+			"typeName": "shape"
+		},
+		{
+			"x": 786.71045849812,
+			"y": 229.5157021202349,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ebx2-XX06pFhfyMwPJyId",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 97.5999755859375,
+					"y": 266.4000701904297
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a4aBFVOV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1063.0884530748654,
+			"y": 818.9611774256829,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:r7-1BgQXGoOgkCziwVq1c",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": -28.871405702321173,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 142.66117969821676,
+					"y": 100.96022785118737
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "aBChqgmV",
+			"typeName": "shape"
+		},
+		{
+			"x": 385.9965484464414,
+			"y": 750.2863305410378,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7vRyqAHkwH7wicMpr06u-",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 743.7393689986283,
+				"font": "draw",
+				"textAlign": "middle",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "In the process of algorithm analysis, we are mostly interested in the efficiency with respect to time and space:"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a8UUQf6d",
+			"typeName": "shape"
+		},
+		{
+			"x": 287.18958664483023,
+			"y": 487.9157036461138,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:e3dJQlKXi2ya7lnzZOKAB",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 35.72098014496209,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 23.199981689453125,
+					"y": 82.40011596679688
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a5c3mPWV",
+			"typeName": "shape"
+		},
+		{
+			"x": 327.98958969658804,
+			"y": 547.9157036461138,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CyBnLsfbgqgilQ4c2-9Cx",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 449.6000061035156,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "It can be both time and space."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a6HoexrV",
+			"typeName": "shape"
+		},
+		{
+			"x": 789.5895729119202,
+			"y": 505.5157097496294,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:r70-O1Qv9jhr1lWhf93Zy",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 679.5999755859376,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Some algorithms might run faster, while others might use less memory. To make an informed choice about which algorithm to use, we need to understand how to analyze and compare algorithms based on their efficiency. This is the essence of algorithm analysis."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a7KKzecG",
+			"typeName": "shape"
+		},
+		{
+			"x": 378.26880386472163,
+			"y": 121.51573263781302,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0zc7cXMD7pdBoibpQ3GeX",
+			"type": "geo",
+			"props": {
+				"w": 672.5999755859375,
+				"h": 107,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "red",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Introduction to Algorithm Analysis"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 303.9103972722289,
+			"y": 415.11566244738333,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:S4zUCJ8e0O1yBRocMJow0",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 331.7999954223633,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Prediction of the amount of resources required by an algorithm to operate "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:38LKeEGsE7jW2z3EorBFV",
+			"index": "a3veAoCV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 719.2000122070312,
+				"h": 798.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"cameraState": "idle",
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"name": "",
+			"color": "#02B1CC",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:Z7PzIUP1udrQrLAd_SqaQ",
+			"typeName": "user"
+		}
+	]
+}
